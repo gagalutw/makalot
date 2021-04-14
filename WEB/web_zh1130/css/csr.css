@@ -1,0 +1,804 @@
+/*
+
+ * @authors 企業社會責任/Ga/Mia
+ * @date    2018-09-15 23:34:09*/
+
+
+
+
+/* BG start */
+.bg-course {
+    background: url(../img/banner/index_06.jpg) no-repeat scroll center center / cover;
+}
+
+.bg-foudation {
+    background: url(../img/banner/index_11.jpg) no-repeat scroll center center / cover;
+}
+
+
+.bg-carrer {
+    background: url(../img/banner/index_06-1.jpg) no-repeat scroll center/ cover;
+}
+
+
+.bg-greenearth {
+    background: url(../img/banner/index_12.jpg) no-repeat scroll center / cover;
+}
+
+
+
+
+/*企業社會責任*/
+.csr_Img {
+    content: url("../img/csr/csr_1.jpg");
+}
+
+
+/*董事長的話*/
+
+.chairman-sign {
+    width: 146px;
+    height: 66px;
+    background: url(../img/csr/ceo_signature_b.png) no-repeat scroll top center / cover;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.csrceo img {
+    width: 100%;
+    height: auto;
+}
+
+
+.contact-form {
+    width: 100%;
+
+    background: #f5f5f5;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    border-radius: 0;
+}
+
+
+.contact-form .form-control {
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #666;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0;
+
+}
+
+.contact-form .form-control::placeholder {
+    font-weight: 300;
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+
+
+.contact-btn {
+    color: #fff;
+    font-weight: 300;
+    border: none;
+    border-radius: .25rem;
+    padding: .375rem 3rem;
+}
+
+.contact-button:hover,
+.contact-button:focus,
+.contact-button:active {
+    background-color: aquamarine;
+}
+
+
+
+/*人才培育*/
+
+.ed-tabs .nav-item {
+    text-align: center;
+
+}
+
+.ed-tabs .nav-link {
+    padding: 0.5rem;
+}
+
+.ed-tabs .nav-item.show .nav-link,
+.ed-tabs .nav-link.active {
+    background-color: transparent;
+}
+
+.ed-tabs .nav-link.active img {
+    opacity: 1;
+}
+
+.ed-tabs .nav-item img {
+    width: 300px;
+    height: auto;
+    opacity: 0.5;
+    transition: all ease-in-out .3s;
+}
+
+
+.eduimg img {
+    width: 100%;
+    height: auto;
+}
+
+
+.ed-slide-wrap .slick-slide {
+    width: 250px;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+    transition: all ease-in-out .3s;
+}
+
+.ed-slide {
+    width: 250px;
+}
+
+
+
+
+.ed-text ul {
+    padding: 0 0 0 20px;
+}
+
+.ed-text ul li {
+    list-style: disc;
+}
+
+.ed-slide .S-title {
+    font-size: 1rem;
+}
+
+.slick-prev {
+    left: 10px;
+}
+
+
+.slick-next {
+    right: 10px;
+}
+
+
+.slick-prev,
+.slick-next {
+    z-index: 10;
+}
+
+
+.pace ul li {
+    margin: 0 0 20px 0;
+    list-style: disc;
+}
+
+
+.pace ul {
+    padding: 0 0 0 25px;
+}
+
+
+
+
+
+/* 聚陽文教基金會 */
+
+
+.fd-icon-block {
+    max-width: 990px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+.fd-icon img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+
+.fd-block {
+    max-width: 990px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.fdbox {
+    margin: 30px;
+}
+
+.fd {
+    border-radius: 1rem;
+    background: #e4e8f3;
+    padding: 30px;
+    justify-content: center;
+    margin: 10px auto 0 auto;
+    width: 440px;
+    height: 130px;
+}
+
+/* 聚陽學園 */
+.bold5 {
+    font-weight: 500;
+}
+
+.bold4 {
+    font-weight: 400;
+}
+
+.coursefont ul {
+    padding: 0 0 0 25px;
+
+}
+
+.coursefont li {
+    list-style: disc;
+    margin: 10px 0 0 0;
+    padding: 0 0 0 -5px;
+}
+
+.coursefont .picr {
+
+    width: 100%;
+    height: auto;
+}
+
+.picbox {
+    position: relative;
+    display: flex;
+}
+
+.awardpic {
+    right: 0px;
+    position: relative;
+    width: 36%;
+    margin-left: 50px;
+}
+
+.awardpic img {
+    margin-bottom: 20px;
+}
+
+.txtleft {
+    position: relative;
+}
+
+.m_carrer_pic {
+    padding-top: 64%;
+    width: 100%;
+    background: url(../img/course/carrer2-1.jpg) no-repeat scroll top center;
+}
+
+
+
+
+/* 社會關懷 */
+.socialcare-block {
+    width: 350px;
+}
+
+.socialcare-block img {
+    width: 100%;
+    height: auto;
+}
+
+/*永續生態 */
+.greencontent-block {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.leedawardbox {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #e4e8f3;
+    padding: 40px;
+}
+
+.leedawardpic {
+    right: 0px;
+    position: relative;
+    width: 45%;
+    margin-left: 50px;
+}
+
+.leedawardpic img,
+.oeko img {
+    width: 100%;
+    height: auto;
+}
+
+.greentitle {
+    border-radius: 5px;
+    background-color: #5fafe2;
+    color: #FFF;
+    padding: 15px;
+    width: 235px;
+}
+
+
+
+
+/* 利害關係人 */
+
+
+.stock-img {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    padding-top: 670px;
+    background: url(../img/csr/stock01.png) no-repeat scroll center center / contain;
+}
+
+
+.stock-imgb,
+.stock-imgc,
+.stock-imgd {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    padding-top: 770px;
+}
+
+.stock-imgb {
+
+    background: url(../img/csr/stock02.jpg) no-repeat scroll center center / contain;
+}
+
+.stock-imgc {
+
+    background: url(../img/csr/stock02_2.jpg) no-repeat scroll center center / contain;
+}
+
+.stock-imgd {
+    margin-top: 40px;
+    padding-top: 500px;
+    background: url(../img/csr/stock03.jpg) no-repeat scroll center center / contain;
+}
+
+/*flag*/
+.cam {
+    background-image: url(../img/flag_cambodia.png);
+}
+
+.vie {
+    background-image: url(../img/flag_vietnam.png);
+}
+
+.phi {
+    background-image: url(../img/flag_philippines.png);
+}
+
+.icon-flag {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.icon-flag {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 5px 10px;
+    border: 1px solid #eeeeee;
+}
+
+.flagbox {
+    display: flex;
+}
+
+.globalfont {
+    color: #3b79cf;
+    font-size: 1.4em;
+    padding: 6px 0 0 5px;
+}
+
+
+/*flag*/
+
+
+
+/* 圖片SLIDE */
+
+.greenslidebox {
+    display: flex;
+    margin: 0 auto;
+    width: 1090px;
+}
+
+.greenslideshow {
+    position: relative;
+    width: auto;
+    display: flex;
+    text-justify: justify;
+}
+
+.mySlidesbox {
+    margin-right: 27px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+}
+
+
+
+
+.tip {
+    display: none;
+    font-size: 0.9rem;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+    .mySlides1,
+    .mySlides2,
+    .mySlides3 {
+        display: block !important;
+    }
+
+    .w3-button {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .ed-tabs .nav-item img {
+        width: 250px;
+    }
+
+}
+
+
+@media screen and (max-width: 1199px) {
+
+    .awardpic img {
+        width: 100%;
+    }
+
+    .iconbox {
+        display: block;
+    }
+
+    .mySlidesbox {
+        position: relative;
+        margin: 0;
+    }
+
+    .greenslideshow {
+        position: relative;
+        margin: 40px auto 0 auto;
+        max-width: 352px;
+    }
+
+
+    .mySlides {
+        display: none;
+    }
+
+    .mySlides img {
+        width: 100%;
+    }
+
+    .w3-black,
+    .w3-hover-black:hover {
+        color: #fff !important;
+        background-color: #000 !important;
+    }
+
+    .w3-display-right {
+        position: absolute;
+        right: 0%;
+        top: 50%;
+        transform: translate(0%, -50%);
+        -ms-transform: translate(0%, -50%);
+    }
+
+    .w3-display-left {
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: translate(0%, -50%);
+    }
+
+    .w3-button {
+        border: none;
+        display: inline-block;
+        padding: 8px 16px;
+        vertical-align: middle;
+        overflow: hidden;
+        text-decoration: none;
+        color: inherit;
+        background-color: inherit;
+        text-align: center;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+
+    .m_carrer_pic {
+        background: url(../img/product/m_pd_2-3-1.jpg) no-repeat scroll top center/cover;
+        padding-top: 159%;
+        width: 100%;
+    }
+
+    .fd-block {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .fdbox {
+        margin: 30px 0;
+    }
+
+    .fd {
+        border-radius: 1rem;
+        background: #e4e8f3;
+        padding: 30px;
+        justify-content: center;
+        margin: 10px auto 0 auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .ed-tabs .nav-item img {
+        width: 210px;
+    }
+
+    .stock-img {
+        padding-top:  500px;
+    }
+
+}
+
+
+
+@media (min-width: 768px) {
+    .ed-tabs span {
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .ed-tabs .nav-item.show .nav-link,
+    .ed-tabs .nav-link.active {
+        background-color: #1367a2;
+    }
+
+    .ed-tabs .nav-link {
+
+        padding: .5rem 1rem;
+    }
+
+    .edu-btn {
+        display: none;
+    }
+
+    .ed-tabs span {
+        display: block;
+    }
+
+    .csr_Img {
+        content: url("../img/csr/csr_2.jpg");
+    }
+
+    .leedawardpic {
+        right: 0px;
+        position: relative;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .leedawardbox {
+        padding: 20px;
+    }
+
+    .cou {
+        position: relative;
+        left: -10px;
+        top: 50px;
+    }
+
+
+
+    .coursefont .picr {
+        width: 300px;
+
+        margin: 40px 0 0 0;
+    }
+
+
+    .coursefont ul {
+        padding: 0 0 0 25px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .picbox {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .awardpic {
+        position: relative;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .txtleft {
+        position: relative;
+        width: 100%;
+    }
+
+
+    .green-block {
+        width: 44%;
+    }
+
+
+
+
+    .stock-img {
+        width: 100%;
+        max-width: 500px;
+        padding-top: 600px;
+        background: url(../img/csr/stock01m.png) no-repeat scroll center center / contain;
+    }
+
+
+    .stock-imgb,
+    .stock-imgc {
+        padding-top: 800px;
+    }
+
+
+    .tip {
+        display: block;
+    }
+
+    .oeko img {
+        max-width: 400px;
+    }
+
+
+
+    .bg-course {
+        background: url(../img/banner/v_index_06.jpg) no-repeat scroll center center / cover;
+    }
+
+    .bg-foudation {
+        background: url(../img/banner/v_index_11.jpg) no-repeat scroll center center / cover;
+    }
+
+    .bg-carrer {
+        background: url(../img/banner/v_index_06-1.jpg) no-repeat scroll top center / cover;
+    }
+
+
+    .tip {
+        display: block;
+    }
+    .note{
+        line-height: 1.5;
+        font-size: 0.9rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 416px) {
+    .bg-greenearth {
+        background: url(../img/banner/v_index_12.jpg) no-repeat scroll top center / cover;
+    }
+}
+
+
+@media screen and (max-width: 415px) and (min-width: 376px) {
+    .bg-greenearth {
+        background: url(../img/banner/v_index_12.jpg) no-repeat scroll 10 center / cover;
+    }
+}
+
+
+@media (max-width: 468px) {
+
+
+
+    .fd-icon {
+        margin: 20px;
+        width: 36%;
+    }
+
+    .greencontent-block {
+        margin: 0 auto;
+    }
+
+    .greencontent-block img {
+        width: 100%;
+    }
+
+
+    .globalfont {
+        color: #3b79cf;
+        font-size: 1.4em;
+        padding: 6px 0 0 5px;
+    }
+
+    .contact-form {
+
+        padding: 30px;
+
+    }
+
+
+    .stock-imgb,
+    .stock-imgc {
+
+        padding-top: 400px;
+
+    }
+
+    .stock-imgd {
+        padding-top: 300px;
+
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .coursefont .picr {
+        width: 100%;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .greenslideshow {
+        max-width: 291px;
+        position: relative;
+        margin: 40px 0;
+    }
+
+    .greenslidebox {
+        display: block;
+        width: 291px;
+    }
+
+}

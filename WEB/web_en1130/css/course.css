@@ -1,0 +1,509 @@
+@charset "UTF-8";
+/**
+ *企業社會責任/mia
+ * @date    2018-09-15 23:34:09
+ * @version $Id$
+ */
+
+
+
+/* BG start */
+.bg-course {
+    background: url(../img/banner/index_06.jpg) no-repeat scroll center center  / cover;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-course {
+    background: url(../img/banner/v_index_06.jpg) no-repeat scroll top center /
+      cover;
+  }
+}
+
+/* 幸福聚陽BG start */
+.bg-carrer{
+  background: url(../img/banner/index_06-1.jpg) no-repeat scroll center/ cover;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-carrer {
+    background: url(../img/banner/v_index_06-1.jpg) no-repeat scroll top center /
+      cover;
+  }
+}
+
+/* 聚陽文教基金會 BG start */
+.bg-foudation{
+  background: url(../img/banner/index_11.jpg) no-repeat scroll center center / cover;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-foudation {
+    background: url(../img/banner/v_index_11.jpg) no-repeat scroll center center /
+      cover;
+  }
+}
+
+/* 永續生態 BG start */
+.bg-greenearth{
+  background: url(../img/banner/index_12.jpg) no-repeat scroll center / cover;
+}
+
+@media screen and (max-width: 768px) and (min-width: 416px) {
+  .bg-greenearth {
+    background: url(../img/banner/v_index_12.jpg) no-repeat scroll top center /
+      cover;
+  }
+}
+
+
+@media screen and (max-width: 415px) and (min-width: 376px){
+.bg-greenearth {
+    background: url(../img/banner/v_index_12.jpg) no-repeat scroll 10 center / cover;
+}
+}
+
+/* 聚陽學園 */
+.bold5{
+	font-weight:500;}
+	
+.bold4{
+	font-weight:400;}
+
+.coursefont ul{
+	padding:0 0 0 25px;
+
+}
+	
+.coursefont li{
+	list-style:disc;
+	margin:10px 0 0 0;
+	padding:0 0 0 -5px;}
+	
+	.coursefont .picr{
+
+	width:100%;
+	height: auto;
+	}
+
+
+
+@media screen and (max-width: 768px) {
+
+  .cou
+ {
+	position:relative;
+	left:-10px;
+	top:50px;
+	}
+
+
+
+	.coursefont .picr{
+		width:300px;
+
+		margin: 40px 0 0 0;
+		}
+
+
+  .coursefont ul{
+	padding:0 0 0 25px;
+	width:100%;
+	margin-bottom:0;}
+}
+
+
+@media screen and (max-width: 420px) {
+
+	.coursefont .picr{
+		width:100%;
+	
+		}
+
+}
+
+.picbox{
+	position:relative;
+	display:flex;}
+	
+.awardpic{
+	right:0px;
+	position:relative;
+	width:36%;
+	margin-left:50px;}
+.awardpic img{
+	margin-bottom:20px;}	
+	
+.txtleft{
+	position:relative;}
+	
+.m_carrer_pic {
+  padding-top: 64%;
+  width: 100%;
+  background: url(../img/course/carrer2-1.jpg) no-repeat scroll top center;
+}
+	
+@media screen and (max-width: 768px) {
+  .picbox{
+	position:relative;
+	display:block;
+	width:100%;
+	height:auto;}
+	
+  .awardpic {
+	position:relative;
+	width:100%;
+	margin-left:0;}
+	
+  .txtleft{
+	position:relative;
+	width:100%;}
+}
+		
+@media screen and (max-width: 1199px) {
+	
+  .awardpic img{
+	width:100%;}
+
+  .iconbox{
+	display:block;
+	}
+
+	
+}
+@media screen and (max-width: 992px) {
+  .m_carrer_pic {
+    background: url(../img/product/m_pd_2-3-1.jpg) no-repeat scroll top
+      center/cover;
+    padding-top: 159%;
+    width: 100%;
+  }
+}
+
+
+/* 聚陽文教基金會 */
+.txtlist ul{
+	padding:0 0 0 25px;
+	}
+.txtlist li{
+	list-style:disc;
+	line-height:1.8em;
+	}
+.fd-icon-block {
+    max-width: 990px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+.fd-icon img {
+    display: block;
+    margin: 0 auto;
+	margin-bottom:10px;
+}
+
+
+.fd-block {
+    max-width: 990px;
+	height:auto;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.fdbox{
+	margin:30px;}
+.fd{
+	border-radius: 1rem;
+	background:#e4e8f3;
+	padding:30px;
+	justify-content: center;
+	margin:10px auto 0 auto;
+	width:440px;
+	height:130px;
+	}	
+
+@media screen and (max-width: 992px) {
+.fd-block {
+    max-width: 100%;
+	height:auto;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.fdbox{
+	margin:30px 0;}
+.fd{
+	border-radius: 1rem;
+	background:#e4e8f3;
+	padding:30px;
+	justify-content: center;
+	margin:10px auto 0 auto;
+	width:100%;
+	height:auto;
+	}		
+}
+
+@media (max-width: 468px) {
+    .fd-icon {
+        margin: 20px;
+		width:36%;
+    }
+
+}
+
+/* 社會關懷 */
+.socialcare-block {
+    width: 350px;
+}
+
+.socialcare-block img {
+    width: 100%;
+    height: auto;
+}
+/*永續生態 */
+.greencontent-block{
+    margin: 0 auto;
+	width:100%;
+	}
+.leedawardbox{
+	width:100%;
+	border-radius:5px;
+	background-color:#e4e8f3;
+	padding:40px;}	
+.leedawardpic{
+	right:0px;
+	position:relative;
+	width:45%;
+	margin-left:50px;}
+.leedawardpic img{
+	width:100%;}	
+.greentitle{
+	border-radius:5px;
+	background-color:#5fafe2;
+	color:#FFF;
+	padding:15px;
+	width:235px;
+	}	
+@media (max-width: 768px) {
+.leedawardpic{
+	right:0px;
+	position:relative;
+	width:100%;
+	margin-left:0;}	
+	
+.leedawardbox{
+	padding:20px;}
+
+}
+@media (max-width: 468px) {
+    .greencontent-block{
+    margin: 0 auto;
+	}
+	.greencontent-block img{
+	width:100%;}
+	.green-block {
+    width: 44%;}
+
+}
+
+
+/*flag*/
+.cam {
+    background-image: url(../img/flag_cambodia.png);
+}
+
+.vie {
+    background-image: url(../img/flag_vietnam.png);
+}
+
+.phi {
+    background-image: url(../img/flag_philippines.png);
+}
+
+.icon-flag {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.icon-flag {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 5px 10px;
+    border: 1px solid #eeeeee;
+}
+.flagbox{
+	display:flex;}
+	
+.globalfont{
+	color:#3b79cf;
+	font-size:1.4em;
+	padding:6px 0 0 5px;
+	}
+
+@media (max-width: 468px) {
+.globalfont{
+	color:#3b79cf;
+	font-size:1.4em;
+	padding:6px 0 0 5px;
+	}
+	
+	}
+/*flag*/
+
+/* 表格設定 */
+table.carrer-table {
+    min-width: 300px;
+}
+
+.carrer-table thead tr {
+    border-bottom:2px;
+	background-color:#1367a3;
+	color:#FFF;
+
+}
+
+.carrer-table td:before {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+
+    .carrer-table thead tr {
+        border: none;
+    }
+
+
+    .carrer-table tr {
+        border: transparent;
+        border-bottom: 3px solid #ccc;
+    }
+
+    .carrer-table th {
+        display: none;
+    }
+
+    .carrer-table td {
+        display: block;
+        border: transparent;
+    }
+
+
+    .regular-td, .lasttd{
+        width: 100%;
+    }
+    
+    .carrer-table td:before {
+        content: attr(data-th);
+        font-weight: bolder;
+        width: 6.5em;
+        display: block;
+        color: #1367a2;
+    }
+
+
+}
+
+
+/* 圖片SLIDE */
+
+.greenslidebox{
+	display:flex;
+	margin:0 auto;
+	width:1090px;
+	}
+
+.greenslideshow{
+	position:relative;
+	width:auto;
+	display:flex;
+	text-justify: justify;
+	}
+	
+.mySlidesbox{
+	margin-right:27px;}
+
+.mySlides {
+	display:none;
+    }
+.mySlides img{
+	width:100%;
+}
+@media screen and (min-width: 1200px) {
+  .mySlides1, .mySlides2, .mySlides3 {
+    display: block !important;
+  }
+  .w3-button {
+    display: none;
+  }
+}
+@media screen and (max-width: 1199px) {
+.mySlidesbox {
+  position:relative;
+  margin:0;
+}
+
+.greenslideshow{
+	position:relative;
+	margin:40px auto 0 auto;
+	max-width:352px;
+	}
+
+
+.mySlides {
+	display:none;
+    }
+.mySlides img{
+	width:100%;}
+
+.w3-black, .w3-hover-black:hover {
+    color: #fff !important;
+    background-color: #000!important;
+	}
+
+.w3-display-right {
+    position: absolute;
+    right: 0%;
+	top:50%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%);
+	}
+
+.w3-display-left {
+    position: absolute;
+	top:50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+	}
+
+.w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;}
+}
+	
+@media screen and (max-width: 320px) {
+	
+.greenslideshow{
+	max-width:291px;
+	position:relative;
+	margin:40px 0;
+	}
+	
+.greenslidebox{
+	display:block;
+	width:291px;}
+
+}
+

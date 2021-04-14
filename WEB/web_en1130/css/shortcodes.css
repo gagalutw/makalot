@@ -1,0 +1,13 @@
+/* ====================================
+	
+	Css Name: Sortcode
+	NOTE: This is Footer style file. All footer related style included in this file.
+
+====================================== */
+
+@import url("jquery-backToTop.min.css");
+@import url("base.css");
+ /* @import url("nav.css");  */
+@import url("nav_new.css");
+@import url("icomoon.css");
+@import url("style.css");

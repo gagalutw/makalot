@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 投資人服務
+ * @date    2018-09-20 16:38:04
+
+ */
+
+/*TOP BANNER*/
+
+.bg-investor {
+    background: url(../img/banner/index_08.jpg) no-repeat scroll 0 0 / cover;
+}
+
+
+
+/*營收報告*/
+
+.fin-btn {
+    width: 400px;
+}
+
+
+/*自結月營利*/
+
+.main-btn{
+    border: 1px solid #ccc;
+    width: auto;
+}
+ 
+/*董事會*/
+.invest-tabs {
+    display: -webkit-box;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+
+.red {
+    color: red;
+}
+
+
+/*委員會*/
+
+.invest-title {
+    font-size: 1.125rem;
+}
+
+
+.invest-table span {
+    display: block;
+
+}
+
+
+
+
+/*公司治理組織架構*/
+
+
+dl {
+    text-align: justify;
+    margin-bottom: .5rem;
+}
+
+dt,
+dd {
+    display: table;
+}
+
+dt span,
+dd span {
+    display: table-cell;
+}
+
+dd {
+
+    margin-left: 1.5rem;
+}
+
+
+dt {
+    font-weight: 300;
+    margin-bottom: .5rem;
+}
+
+
+dd {
+
+    margin-left: 1.5rem;
+}
+
+
+
+ul.comulB {
+ padding: 0 0 0 0;
+}
+
+
+
+.comul li{
+    list-style-type: decimal;
+    margin-bottom:0.5rem; 
+}
+
+/*相關連結*/
+
+
+.investor-btn p{
+    margin-bottom: 0;
+}
+
+.download-btn {
+    width: auto;
+}
+
+
+@media (max-width: 535px) {
+
+
+
+    .investor-btn-text p, .invest-table, .c-structure {
+        font-size: 0.9rem;
+    }
+
+ .c-structure {
+       text-align: left;
+    }
+
+
+}
+
+
+
+
+
+
+@media (max-width: 468px) {
+
+
+    .fin-btn {
+        width: 100%;
+    }
+}

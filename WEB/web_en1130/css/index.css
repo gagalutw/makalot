@@ -1,0 +1,491 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 聚陽首頁
+ * @date    2018-09-15 23:34:09
+
+ */
+
+
+body {
+    overflow-x: hidden;
+}
+
+
+/*SWIPER START*/
+.navbar-trans {
+    z-index: 2;
+}
+
+/*only for index*/
+
+.swiper-container {
+    position: relative;
+}
+
+.swiper-slide {
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    position: relative;
+    background: #000;
+}
+
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
+
+.swiper-button-next {
+    background-image: url(../img/arrow_R.svg);
+}
+
+.swiper-button-prev {
+    background-image: url(../img/arrow_L.svg);
+}
+
+.swiper-pagination-bullet {
+    margin: 3px;
+    cursor: pointer;
+}
+
+.swiper-pagination-bullet {
+    opacity: 0.8;
+}
+
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #fff;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    z-index: 20;
+}
+
+
+
+.inBn-1 {
+    background-image: url(../img/banner/index_01.jpg);
+}
+
+.inBn-2 {
+    background-image: url(../img/banner/index_02.jpg);
+    background-position: 15% 50%;
+}
+
+.inBn-3 {
+    background-image: url(../img/banner/index_03.jpg);
+    background-position: top right;
+}
+
+.inBn-4 {
+    background-image: url(../img/banner/index_04.jpg);
+}
+
+.inBn-5 {
+    background-image: url(../img/banner/index_05.jpg);
+}
+
+
+
+/*SWIPER END*/
+
+.topText {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    z-index: 70;
+    color: #fff;
+}
+
+.topText p {
+    font-family: Times, "Times New Roman", serif;
+    font-size: 1.7rem;
+}
+
+.topLogo {
+    background: url(../img/index_Bnlogo6.png) no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+.bn-vertical {
+    display: none;
+}
+
+
+.slogan h1 {
+
+    font-size: 2.15rem;
+    margin: 0 0 0 0;
+}
+
+.index-title {
+    font-size: 1.5rem;
+}
+
+.index-info {
+    max-height: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.indexMap,
+.indexVideo {
+    max-width: 600px;
+    max-height: 500px;
+    min-height: 400px;
+    padding: 0;
+}
+
+.indexMap {
+    background: url(../img/indexmap.png) #f1f5f8 no-repeat center center;
+    background-size: cover;
+}
+
+.indexVideo {
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+.indexVideo .index-title {
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    right: 20%;
+    left: 20%;
+}
+
+
+
+.m-btn {
+    display: none;
+}
+
+.btn-bg {
+    padding: 0;
+    position: relative;
+}
+
+
+.index-btn {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    opacity: 0.8;
+    background-size: cover;
+}
+
+.index-btn::after {
+    content: "";
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 3;
+    background-color: #d9cdec;
+}
+
+
+.btn-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+/* .btn-bg:nth-child(1):nth-child(1) { */
+.aa {
+    background-image: url(../img/banner/index_10.jpg);
+}
+
+
+/* 
+.btn-bg:nth-child(2) :nth-child(2) { */
+.bb {
+    background-image: url(../img/banner/index_09.jpg);
+}
+
+/* .btn-bg:nth-child(3) :nth-child(2) { */
+
+.cc {
+    background-image: url(../img/banner/index_06.jpg);
+}
+
+
+/* .btn-bg:nth-child(4) :nth-child(2) { */
+.dd {
+    background-image: url(../img/banner/index_08.jpg);
+}
+
+/* .btn-bg:nth-child(5) :nth-child(2) { */
+.ee {
+    background-image: url(../img/banner/index_07.jpg);
+}
+
+
+
+
+.index-btn-text {
+    position: absolute;
+    color: #fff;
+    height: 50px;
+    z-index: 5;
+    width: 100%;
+    padding-left: 10px;
+    bottom: 0;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.index-btn-text::after {
+    content: "";
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+    background-color: #000;
+}
+
+.index-btn-text p {
+    margin: 0;
+}
+
+
+
+.client-slide{
+    padding: 10px;
+}
+
+.client-slide img{
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/*RWD*/
+
+@media(min-width: 1200px) {
+    .swiper-slide {
+        height: 750px;
+    }
+}
+
+@media(max-width: 992px) {
+
+
+}
+
+@media (max-width: 768px) {
+
+
+    .index-info {
+        min-height: 500px;
+        max-height: fit-content;
+        margin-top: 0;
+    }
+
+    .topLogo {
+
+        width: 70px;
+        height: 70px;
+    }
+
+    .topText p {
+        font-size: 1.3rem;
+    }
+
+    .slogan {
+        padding: 20px;
+    }
+
+    .slogan h1 {
+        font-size: 1.9rem;
+        line-height: 10vh;
+    }
+}
+
+
+@media (max-width: 468px) {
+
+    .slogan {
+        height: 10vh;
+        padding: 0;
+    }
+
+    .swiper-slide {
+        height: 90vh;
+
+    }
+
+
+
+    .m-btn {
+        display: block;
+        margin: 0;
+    }
+
+    .index-btn {
+        height: 200px;
+    }
+
+    .inBn-1 {
+        background-position: 66% 100%;
+    }
+
+    .inBn-2 {
+        background-image: url(../img/banner/v_index_02_ix.jpg);
+        background-position: 25% 50%;
+    }
+
+
+    .inBn-3 {
+        background-image: url(../img/banner/v_index_03.jpg);
+        background-position: center center;
+    }
+
+
+    .inBn-4 {
+        background-position: 45% 100%;
+    }
+
+    .inBn-5 {
+        background-position: 10% 50%;
+    }
+
+    .indexMap {
+
+        margin: 0;
+    }
+
+
+    .client-slide img{
+        width: 140px;
+     
+    }
+
+    .indexVideo .index-title {
+       
+        right: 10%;
+        left: 10%;
+    }
+    
+    
+
+}
+
+
+
+@media (max-width: 414px) and (max-height:650px) {
+
+    .inBn-3 {
+        background-image: url(../img/banner/v_index_03_414.jpg);
+        background-position: center -15%;
+    }
+
+}
+
+
+@media (width: 375px) and (height:667px),
+(width: 414px) and (height:736px),
+(width: 320px) and (height:568px) {
+
+    .inBn-3 {
+
+        background-position: center 37px;
+    }
+
+}
+
+@media (width: 375px) and (height:812px) {
+
+    .inBn-3 {
+        background-image: url(../img/banner/v_index_03_468.jpg);
+        background-position: center 30px;
+    }
+
+}
+
+
+
+
+/* 首頁影片設定*/
+
+
+.player-frame {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    overflow: hidden;
+    background: url(../img/video_cover.jpg) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 410px;
+    cursor: pointer;
+}
+
+.brand-top-video {
+
+    position: relative;
+    width: 100%;
+    height: 410px;
+    margin: auto;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .brand-top-video {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bg-01 {
+        background: aquamarine;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .bg-01,
+    .brand-top {
+        background-position: center 45px;
+    }
+}

@@ -1,0 +1,275 @@
+@charset "UTF-8";
+/**
+ * 
+ * @關於俱揚 公司沿革/外界肯定
+ * @date    2018-09-16 00:48:55
+
+ */
+
+* {
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+
+p {
+
+  line-height: 1.4rem;
+}
+
+.history-content{
+  overflow-x: hidden;
+}
+
+
+.bg-time-1,
+.bg-time-2,
+.bg-time-3 {
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+.bg-time-1 {
+  background-image: url(../img/about/1_2_1.png);
+  width: 450px;
+  height: 200px;
+  right: -7%;
+  top: 36%;
+}
+
+
+.bg-time-2,
+.bg-time-3 {
+  width: 350px;
+  height: 350px;
+}
+
+.bg-time-2 {
+  background-image: url(../img/about/1_2_2.png);
+  left: -16%;
+  top: 30%;
+}
+
+.bg-time-3 {
+  background-image: url(../img/about/1_2_3.png);
+  right: -15%;
+  top: 45%;
+}
+
+.timeline {
+  width: 100%;
+  position: relative;
+  padding: 0 10px;
+}
+
+.timeline:before {
+  content: "";
+  width: 3px;
+  height: 100%;
+  background: #999;
+  left: 50%;
+  top: 0;
+  position: absolute;
+}
+
+.timeline:after {
+  content: "";
+  clear: both;
+  display: table;
+  width: 100%;
+}
+
+.timeline .timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.timeline .timeline-item .timeline-icon,
+.start1990 {
+  border-radius: 50%;
+  border: 3px solid #fff;
+
+}
+
+.timeline .timeline-item .timeline-icon {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  overflow: hidden;
+  margin-left: -23px;
+  line-height: 42px;
+
+}
+
+
+.bg-og{
+  background: #ff8964;
+}
+
+
+.start1990 {
+  width: 65px;
+  height: 65px;
+  margin: 0 auto;
+  line-height: 52px;
+  color: #fff;
+}
+
+.timeline-3 .container .timeline .timeline-item:last-child{
+  display: none;
+}
+
+
+.timeline .timeline-item .timeline-content {
+  width: 45%;
+  padding-top: 10px;
+}
+
+.timeline .timeline-item .timeline-content.right {
+  float: right;
+  text-align: left;/*1121*/
+}
+
+.timeline-1 .timeline-icon,
+.timeline-3 .timeline-icon,
+.record-timeline .timeline-icon {
+  color: #fff;
+}
+
+
+.timeline .timeline-content.right p {
+  text-align: left;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+/*1121*/
+.tab-content{
+  margin-bottom: 200px;
+}
+
+  .foun-start{
+    display: none;
+  }
+
+  .history-content{
+    margin-bottom: 250px;
+  }
+  
+
+  .bg-time-2 {
+    opacity: 0.2;
+  }
+
+  .timeline {
+    margin: 30px 30px 0 30px;
+    padding: 0px;
+    width: 90%;
+  }
+
+  .timeline:before {
+    left: 0;
+  }
+
+  .timeline .timeline-item .timeline-content {
+    width: 90%;
+    float: right;
+    text-align: left;/*1121*/
+    font-size: 0.9rem;/*1121*/
+  }
+
+
+  .timeline .timeline-item .timeline-content p {
+    text-align: left;
+    margin-bottom: 0.7rem;
+  }
+
+  .timeline .timeline-item .timeline-icon {
+    left: 0;
+    position: inherit;
+    float: left;
+  }
+
+
+.timeline-2, .timeline-3{
+  margin: -30px 0 0 0;
+}
+
+.timeline-3 .container .timeline .timeline-item:last-child{
+  display: block;
+
+}
+
+
+.timeline-3 .container .timeline:before {
+    height: 90%;
+}
+
+
+  .timeline .timeline-content p {
+    font-size: 0.9rem;
+  }
+
+
+  .footer {
+    margin-top: -150px;
+  }
+}
+
+
+
+.record-tabs {
+  border: none;
+  margin-bottom: 50px;/*1121*/
+}
+
+
+
+
+.record-tabs .nav-link {
+  background-color: #d0d0d0;
+  line-height: 41px;
+  margin: 0 20px;
+}
+
+
+
+.record-tabs .nav-item.show .nav-link,
+.record-tabs .nav-link.active {
+  background-color: #1367a3;
+
+}
+
+.record-tabs .nav-link,
+.record-tabs .nav-item.show .nav-link,
+.record-tabs .nav-link.active {
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  line-height: 41px;
+  color: #FFF;
+  padding: 10px;
+}
+
+
+.record-timeline p {
+  font-size: 0.95rem;
+}
+
+
+@media screen and (max-width: 340px) {
+  .record-tabs .nav-link {
+    margin: 0 5px;
+  }

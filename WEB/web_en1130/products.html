@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>index</title>
+    <!-- ALL SITE CSS  -->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/shortcodes.css">
+    <!-- ALL SITE CSS  -->
+    <link rel="stylesheet" href="css/product.css">
+</head>
+
+<body>
+    <!-- top BANNER START -->
+    <section>
+        <div class="topbn-inr overlay-wraper bg-pd">
+            <div class="overlay-main"></div>
+        </div>
+        <!-- navigation  START-->
+        <div id="top"></div>
+        <!-- navigation  END-->
+    </section>
+    <!-- top BANNER END -->
+    <!-- inner-content -->
+    <div class="container">
+        <div class="main-content m-tb50 text-center ">
+            <div class="main-title">
+                <i class="icon-m-title text-bg-1"></i>
+                <div class="M-title bg-blue-1">
+                    <div class="title-inner"><span>Products</span></div>
+                </div>
+            </div>
+            <div class="pdslidebox">
+                <div class="pdslideshow m-t40 m-r15 ">
+                    <div class="mySlidesbox"><img class="mySlides1 slide-top" src="img/product/p1-1.jpg"></div>
+                        <div class="pdbtnbox1 pdbtnbox text-center">
+                            <div class="pdbtn1 p-a10">Ready-to-wear</div>
+                            <p class="m-t10 text-center">Reactive Fashion Authentic Casual & Leisure</p>
+                        </div>
+                        <div class="mySlidesbox"><img class="mySlides1" src="img/product/p1-2.jpg"></div>
+                            <div class="mySlidesbox"><img class="mySlides1 m-t15 slide-top" src="img/product/p1-3.jpg"></div>
+                                <button class="w3-button w3-black w3-display-left" onclick="plusDivs1(-1)">&#10094;</button>
+                                <button class="w3-button w3-black w3-display-right" onclick="plusDivs1(1)">&#10095;</button>
+                            </div>
+                            <div class="pdslideshow m-t40 m-r15">
+                                <div class="pdbtnbox2 pdbtnbox text-center">
+                                    <div class="pdbtn1 p-a10">Active wear</div>
+                                    <p class="m-t10 text-center">Performance Athleisure Swimwear</p>
+                                </div>
+                                <div class="mySlidesbox"><img class="mySlides2" src="img/product/p2-1.jpg"></div>
+                                    <div class="mySlidesbox"><img class="mySlides2 m-t15" src="img/product/p2-2.jpg"></div>
+                                        <div class="mySlidesbox"><img class="mySlides2 m-t15" src="img/product/p2-3.jpg"></div>
+                                            <button class="w3-button w3-black w3-display-left" onclick="plusDivs2(-1)">&#10094;</button>
+                                            <button class="w3-button w3-black w3-display-right" onclick="plusDivs2(1)">&#10095;</button>
+                                        </div>
+                                        <div class="pdslideshow m-t40 m-r15 singletitle">
+                                            <div class="mySlidesbox"><img class="mySlides3" src="img/product/p3-1.jpg"></div>
+                                                <div class="pdbtnbox3 pdbtnbox text-center">
+                                                    <div class="pdbtn2 p-a05">
+                                                        <p>Sleepwear & Loungewear & Gift Set</p>
+                                                    </div>
+                                                </div>
+                                                <div class="mySlidesbox"><img class="mySlides3" src="img/product/p3-2.jpg"></div>
+                                                    <div class="mySlidesbox"><img class="mySlides3 m-t15" src="img/product/p3-3.jpg"></div>
+                                                        <button class="w3-button w3-black w3-display-left" onclick="plusDivs3(-1)">&#10094;</button>
+                                                        <button class="w3-button w3-black w3-display-right" onclick="plusDivs3(1)">&#10095;</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- footer  START-->
+                                        <div id="footer"></div>
+                                        <!-- footer  END-->
+                                        <!-- ALL SITE JS -->
+                                        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+                                        <script src="js/hf.js"></script>
+                                        <script src="js/popper.min.js"></script>
+                                        <script src="js/bootstrap.min.js"></script>
+                                        <!-- goTop -->
+                                        <script src="js/jquery-backToTop.min.js"></script>
+                                        <script>
+                                        var $button = $.backToTop({
+                                            theme: 'fawesome'
+                                        });
+                                        </script>
+                                        <!-- ALL SITE JS -->
+                                        <!-- slide -->
+                                        <script>
+                                        var slideIndex = 1;
+                                        showDivs1(slideIndex);
+
+                                        function plusDivs1(n) {
+                                            showDivs1(slideIndex += n);
+                                        }
+
+                                        function showDivs1(n) {
+                                            var i;
+                                            var x = document.getElementsByClassName("mySlides1");
+                                            if (n > x.length) { slideIndex = 1 }
+                                            if (n < 1) { slideIndex = x.length }
+                                            for (i = 0; i < x.length; i++) {
+                                                x[i].style.display = "none";
+                                            }
+                                            x[slideIndex - 1].style.display = "block";
+                                        }
+                                        </script>
+                                        <!-- slide -->
+                                        <script>
+                                        var slideIndex = 1;
+                                        showDivs2(slideIndex);
+
+                                        function plusDivs2(n) {
+                                            showDivs2(slideIndex += n);
+                                        }
+
+                                        function showDivs2(n) {
+                                            var i;
+                                            var x = document.getElementsByClassName("mySlides2");
+                                            if (n > x.length) { slideIndex = 1 }
+                                            if (n < 1) { slideIndex = x.length }
+                                            for (i = 0; i < x.length; i++) {
+                                                x[i].style.display = "none";
+                                            }
+                                            x[slideIndex - 1].style.display = "block";
+                                        }
+                                        </script>
+                                        <!-- slide -->
+                                        <script>
+                                        var slideIndex = 1;
+                                        showDivs3(slideIndex);
+
+                                        function plusDivs3(n) {
+                                            showDivs3(slideIndex += n);
+                                        }
+
+                                        function showDivs3(n) {
+                                            var i;
+                                            var x = document.getElementsByClassName("mySlides3");
+                                            if (n > x.length) { slideIndex = 1 }
+                                            if (n < 1) { slideIndex = x.length }
+                                            for (i = 0; i < x.length; i++) {
+                                                x[i].style.display = "none";
+                                            }
+                                            x[slideIndex - 1].style.display = "block";
+                                        }
+                                        </script>
+</body>
+
+</html>
